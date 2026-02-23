@@ -2,8 +2,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mangod12&label=Profile%20views&color=0e75b6&style=flat)
 
-**Backend & AI Systems Engineer**  
-Building production-grade systems in **AI/ML, security intelligence, real-time telemetry, and enterprise automation.**
+Backend-focused engineer building **production systems in security intelligence, industrial ERP, real-time dashboards, and mobile applications.**
 
 ---
 
@@ -16,69 +15,143 @@ Building production-grade systems in **AI/ML, security intelligence, real-time t
 
 ---
 
-## 🚀 What I Build
-
-- AI-powered monitoring & detection systems  
-- Vulnerability intelligence & security automation platforms  
-- Real-time telemetry dashboards (drones, emergency systems)  
-- ERP & industrial workflow automation  
-- Dockerized backend systems with CI/CD pipelines  
-
-Deployed systems on **Google Cloud**, containerized with **Docker**, automated using **GitHub Actions**.
+# 🚀 Featured Production Projects
 
 ---
 
-## 🔥 Featured Projects
+## 🔐 CyberSec Alert SaaS  
+**Live Deployment:** https://cybersec-saas-zjfau6dqcq-uc.a.run.app/  
+[Vulnerability Intelligence Platform – Source Code](https://github.com/mangod12/cybersecuritysaas)
 
-| Project | Description | Stack |
-|----------|------------|--------|
-| [**VitalWatch**](https://github.com/mangod12/VitalWatch) | Real-time patient event detection (fall, bed exit, immobility) with severity scoring + live dashboard | Python, YOLOv8, MediaPipe, OpenCV, FastAPI |
-| [**Redline-AI**](https://github.com/mangod12/Redline-AI) | AI IVR for emergency response: call → transcription → translation → severity analysis | Python, FastAPI, Twilio, Google Cloud |
-| [**CyberSec Alert SaaS**](https://github.com/mangod12/cybersecuritysaas) | CVE intelligence platform with advisory scraping, asset correlation, alerting engine | Python, FastAPI, PostgreSQL, Docker |
-| [**SkyDash**](https://github.com/mangod12/skydash) | Real-time drone telemetry dashboard (20Hz streaming, MAVLink integration) | FastAPI, React, PyMAVLink |
-| [**kbsteel (Steel ERP)**](https://github.com/mangod12/kbsteel) | Industrial fabrication ERP with Excel auto-linking & stage-based auto material deduction | Python, FastAPI |
-| [**smartflow-todo-rn**](https://github.com/mangod12/smartflow-todo-rn) | Mobile task app with dynamic scoring algorithm & real-time sync | React Native, TypeScript, Firebase |
+Aggregates CVEs & advisories (NVD, MSRC, Cisco, RedHat), correlates with assets, and triggers email alerts.
+
+### Stack & Architecture
+- Python 3.12
+- FastAPI (REST APIs)
+- PostgreSQL
+- SQLAlchemy ORM
+- Background task processing
+- Email alert engine (SMTP integration)
+- CVE ingestion pipelines
+- Web scraping (requests, BeautifulSoup)
+- Data normalization & parsing
+- Dockerized deployment
+- Google Cloud Run
+- GitHub Actions CI (lint, test, docker build)
+- Flake8 linting
+- PyTest backend tests
 
 ---
 
-## 🔐 Security & Infra Work
+## 🏭 kbsteel – Industrial Steel ERP  
+[Repository](https://github.com/mangod12/kbsteel)
 
-- [CIRVS Backend](https://github.com/mangod12/CIRVS-backend) – Critical infrastructure vulnerability monitoring
-- [CIRVS Frontend](https://github.com/mangod12/CIRVS-frontend)
-- CI/CD pipelines with linting, testing, Docker builds
-- Email-triggered alert systems
-- Multi-source CVE aggregation (NVD, MSRC, Cisco, RedHat)
+Industrial fabrication tracking & inventory ERP system with automatic material deduction.
+
+### Stack
+- Python
+- FastAPI
+- SQLite (production lightweight DB)
+- Excel/CSV parsing (pandas, openpyxl)
+- Role-based authentication
+- Stage-based workflow engine
+- Auto material deduction logic
+- Dashboard statistics API
+- REST API architecture
+- HTML/CSS/Vanilla JS frontend
+- Local server deployment
+- Structured modular backend
 
 ---
 
-## 🛠 Core Tech Stack
+## 🚁 SkyDash – Drone Telemetry Dashboard  
+[Repository](https://github.com/mangod12/skydash)
 
-### Backend & Infrastructure
+Real-time telemetry dashboard for MAVLink-compatible drones.
+
+### Stack
+Backend:
+- Python
+- FastAPI
+- PyMAVLink
+- Uvicorn
+- Pydantic
+
+Frontend:
+- React 18
+- Vite
+- TailwindCSS
+- Recharts
+- Framer Motion
+
+System:
+- 20Hz telemetry polling
+- JSON telemetry API
+- Modular adapter architecture (MAVLink, DJI placeholder)
+- Local simulation engine
+
+---
+
+## 📱 smartflow-todo-rn  
+[Repository](https://github.com/mangod12/smartflow-todo-rn)
+
+Mobile task management app with algorithmic priority scoring.
+
+### Stack
+- React Native CLI
+- TypeScript (strict mode)
+- Firebase Authentication
+- Cloud Firestore
+- Real-time listeners
+- Context API + useReducer
+- Optimistic UI updates
+- Native date-time picker
+- React Navigation
+- Firestore security rules
+
+---
+
+## 🔍 CIRVS – Critical Infrastructure Vulnerability Scraper
+
+Backend: Python  
+Frontend: HTML/JS  
+
+- Multi-source advisory scraping
+- Vulnerability monitoring
+- Lightweight monitoring interface
+
+---
+
+# 🛠 Core Engineering Stack
+
+## Backend & APIs
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-07405e?style=for-the-badge&logo=sqlite&logoColor=white)
 
-### AI / ML / Vision
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/opencv-white?style=for-the-badge&logo=opencv&logoColor=black)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-black?style=for-the-badge)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge)
+## Cloud & DevOps
+![Docker](https://img.shields.io/badge/docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white)
 
-### Frontend & Mobile
+## Frontend & Mobile
 ![React](https://img.shields.io/badge/react-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/react_native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Firebase](https://img.shields.io/badge/firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Security & Testing
-![Twilio](https://img.shields.io/badge/twilio-%23F22F46.svg?style=for-the-badge&logo=twilio&logoColor=white)
-![PyTest](https://img.shields.io/badge/pytest-%230A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)
+## Data & Automation
+![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas)
+![OpenPyXL](https://img.shields.io/badge/OpenPyXL-000000?style=for-the-badge)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4B8BBE?style=for-the-badge)
+
+## Testing & Quality
+![PyTest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Flake8](https://img.shields.io/badge/flake8-3776AB?style=for-the-badge)
-![MAVLink](https://img.shields.io/badge/MAVLink-FF6600?style=for-the-badge)
 
 ---
 
