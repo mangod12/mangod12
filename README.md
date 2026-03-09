@@ -2,7 +2,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mangod12&label=Profile%20views&color=0e75b6&style=flat)
 
-Backend-focused engineer building **production systems in security intelligence, industrial ERP, real-time dashboards, and mobile applications.**
+I’m Anshaj — I build production-ready systems that automate and visualize real-time data, from vulnerability intelligence SaaS to high-frequency drone telemetry dashboards. My work centers on Python/FastAPI backends, PostgreSQL, and React/TypeScript frontends, with a focus on automation, reliability, and developer experience. Find my projects below and get in touch on GitHub.
 
 ---
 
