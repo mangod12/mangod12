@@ -39,12 +39,7 @@ Real-time MAVLink telemetry at 20Hz. Attitude, GPS, battery monitoring with glas
 
 ---
 
-## Open Source Contributions
 
-**[aniket328/blue](https://github.com/aniket328/blue-backend)** — EdTech platform | 20+ PRs merged across frontend & backend
-- Student module refactor, LMS features, CSV bulk import, bug fixes, E2E tests
-
----
 
 ## Tech Stack
 
