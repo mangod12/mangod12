@@ -39,7 +39,7 @@ Comfortable with **MCP, agentic systems, RAG, pgvector, and real-time streaming 
 #### Currently
 
 🛠 Building **Blue** — internal platform powering CWI Studios' operations
-🌱 Open to **backend / systems / AI engineering internships** where I can ship to real users from day one
+🌱 Open to **full stack / systems / AI engineering internships** where I can ship to real users from day one
 
 ---
 
