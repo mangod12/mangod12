@@ -18,6 +18,12 @@ CS @ KIIT '27 · Currently at [CWI Studios](https://cwistudio.in) · Bokaro / Bh
 
 ---
 
+#### Open-source security work
+
+- Reported and specified a cross-tenant RBAC isolation regression suite for [AiSOC](https://github.com/beenuar/AiSOC): proposed endpoint-level tenant-isolation tests, BYOK/alerts coverage, and a nightly security CI gate in [#159](https://github.com/beenuar/AiSOC/issues/159), later closed by merged [PR #197](https://github.com/beenuar/AiSOC/pull/197).
+
+---
+
 #### How I work
 
 I treat the shop floor and the customer call as primary sources, not the GitHub trending page. Before writing the ERP, I spent weeks interviewing operators at a steel plant. That's why the system actually gets used — and why I reach for MCP, agentic AI, or real-time streaming only when they solve a real problem.
