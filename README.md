@@ -21,6 +21,9 @@ CS @ KIIT '27 · Currently at [CWI Studios](https://cwistudio.in) · Bokaro / Bh
 #### Open-source security work
 
 - Reported and specified a cross-tenant RBAC isolation regression suite for [AiSOC](https://github.com/beenuar/AiSOC): proposed endpoint-level tenant-isolation tests, BYOK/alerts coverage, and a nightly security CI gate in [#159](https://github.com/beenuar/AiSOC/issues/159), later closed by merged [PR #197](https://github.com/beenuar/AiSOC/pull/197).
+- Landed a merged upstream fix in [Biome](https://github.com/biomejs/biome): CLI rdjson code-suggestion replacement output in [PR #10543](https://github.com/biomejs/biome/pull/10543).
+- Landed a merged upstream fix in [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT): orchestrator credential-mask forwarding into tool node execution in [PR #13151](https://github.com/Significant-Gravitas/AutoGPT/pull/13151).
+- Credited in [AiSOC](https://github.com/beenuar/AiSOC)'s merged contributor/security credits update in [PR #223](https://github.com/beenuar/AiSOC/pull/223).
 
 ---
 
