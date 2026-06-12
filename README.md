@@ -29,6 +29,7 @@ CS @ KIIT '27 · Currently at [CWI Studios](https://cwistudio.in) · Bokaro / Bh
 
 #### Open-source contributions
 
+- **[OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** - merged Datadog receiver feature-gate metadata migration: [PR #48905](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/48905).
 - **[Biome](https://github.com/biomejs/biome)** - merged CLI fix for rdjson code-suggestion replacement output: [PR #10543](https://github.com/biomejs/biome/pull/10543).
 - **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** - merged orchestrator fix forwarding credential input masks into tool-node execution: [PR #13151](https://github.com/Significant-Gravitas/AutoGPT/pull/13151).
 - **[AiSOC](https://github.com/beenuar/AiSOC)** - reported cross-tenant RBAC isolation gaps and proposed regression/security CI coverage in [issue #159](https://github.com/beenuar/AiSOC/issues/159); credited in merged contributor/security credits update [PR #223](https://github.com/beenuar/AiSOC/pull/223).
