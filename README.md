@@ -2,7 +2,7 @@
 
 Backend + AI systems engineer focused on geospatial intelligence, security automation, and agentic systems.
 
-CS @ KIIT '27 · Currently at [CWI Studios](https://cwistudio.in) · Bokaro / Bhubaneswar · Open to AI systems, geospatial, security automation, and backend engineering internships.
+CS @ KIIT '27 · Bokaro / Bhubaneswar · Open to AI systems, geospatial, security automation, and backend engineering internships.
 
 ---
 
